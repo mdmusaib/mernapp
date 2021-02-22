@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "client": "cd client && npm start",
-    "start": "concurrently - kill-others \" nodemon index \" \"npm run client\""
+    "start": "concurrently - kill-others \" nodemon app \" "
   },
   "keywords": [],
   "author": "",
