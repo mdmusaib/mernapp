@@ -41,7 +41,7 @@ app.post("/", function(req, res){
   const request = https.request(url, options, function (response){
        response.on("data", function(data){
            console.log(JSON.parse(data));
-           window.location.href="http://localhost:3000/";
+          res.redirect('http://localhost:3000');
 
        })
 
